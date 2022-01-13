@@ -1,0 +1,25 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Flingtoad",
+  "home_page_url": "https://blog.flingtoad.com",
+  "feed_url": "https://blog.flingtoad.com/feed.json",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://blog.flingtoad.com/feed.json — and add it your reader.",
+  "author": {
+    "name": "Mike Oliver",
+    "url": "mailto:mike@flingtoad.com"
+  },
+  "items": [
+
+
+    
+    {
+      "id": "https://blog.flingtoad.com/2022-01-12-my-day-today.html",
+      "url": "https://blog.flingtoad.com/2022-01-12-my-day-today.html",
+      "title": "My day today",
+      "content_html": "<p>I had a pretty good day today. </p>\n\n<p>I hung out at <a href=\"http://empireteaandcoffee.com\">the coffee shop</a>. Then I went home.</p>\n\n<p>Well, that’s all for now. Bye bye.</p>\n",
+      "date_published": "2022-01-12T21:42:44-06:00",
+      "date_modified": "2022-01-12T21:42:44-06:00"
+    }
+
+  ]
+}
