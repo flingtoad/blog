@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Flingtoad]]></title>
+  <link href="https://blog.flingtoad.com/atom.xml" rel="self" />
+  <link href="https://blog.flingtoad.com" />
+  <updated>2022-01-12T21:42:44-06:00</updated>
+  <id>https://blog.flingtoad.com</id>
+  <author>
+    <name><![CDATA[Mike Oliver]]></name>
+    <email><![CDATA[mike@flingtoad.com]]></email>
+  </author>
+  <generator uri="https://github.com/jmacdotorg/plerd">Plerd</generator>
+
+
+  <entry>
+    <title type="html"><![CDATA[My day today]]></title>
+    <link href="https://blog.flingtoad.com/2022-01-12-my-day-today.html"/>
+    <published>2022-01-12T21:42:44-06:00</published>
+    <updated>2022-01-12T21:42:44-06:00</updated>
+    <id>https://blog.flingtoad.com/2022-01-12-my-day-today.html</id>
+    <content type="html"><![CDATA[<p>I had a pretty good day today. </p>
+
+<p>I hung out at <a href="http://empireteaandcoffee.com">the coffee shop</a>. Then I went home.</p>
+
+<p>Well, that’s all for now. Bye bye.</p>
+]]></content>
+  </entry>
+
+
+</feed>
