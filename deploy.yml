@@ -1,0 +1,22 @@
+---
+- hosts: eucalyptus.fat.mklvr.io
+  become: True
+  tasks:
+    - name: Create a tarball to copy for deployment
+      community.general.archive:
+        path: ./docroot
+        dest: ./deploy.tar.gz
+      delegate_to: localhost
+      become: False
+    - name: Unpack the tarball to the remote system
+      ansible.builtin.unarchive:
+        src: deploy.tar.gz
+        dest: /var/www/html
+        owner: www-data
+        group: www-data
+    - name: Cleanup the tarball
+      ansible.builtin.file:
+        path: ./deploy.tar.gz
+        state: absent
+      delegate_to: localhost
+      become: False
