@@ -4,6 +4,7 @@
     <title>[% title %]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://thomasf.github.io/solarized-css/solarized-light.min.css" rel="stylesheet">
     <link href="atom.xml" rel="alternate" title="Atom feed" type="application/atom+xml">
     <link href="feed.json" rel="alternate" title="JSON feed" type="application/json">
 
@@ -22,8 +23,11 @@
         [% context_post.social_meta_tags %]
     [% END %]
     <style>
+        p {
+            color: #657b83;
+        }
         .page-header h1 :link, .page-header h1 :visited {
-            color: black;
+            color: #657b83;;
         }
         .sidebar h1 {
             font-size: 1.5em;
@@ -37,11 +41,20 @@
         img {
             width: 100%;
         }
+        .navbar-default {
+            background-color: #eee8d5;
+            border-color: #073642;
+        }
+        .navbar-default .navbar-brand {
+            color: #859900;
+            font-size: 25px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container">
+  <div class="navbar navbar-default" role="navigation">
+      <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -67,13 +80,13 @@
         </div>
         <div class="col-sm-3 sidebar">
             <section>
-                <h1>Hello</h1>
+              <h1>⌊ About ⌋</h1>
                 <p>
-                    This is a blog by <a href="mailto:[% plerd.author_email %]">[% plerd.author_name %]</a>.
+                    This is a blog by <a href="mailto:[% plerd.author_email %]">[% plerd.author_name %]</a>. This will be a solar-powered, off-grid blog. It's cover topics ranging from technology, sustainability, vegetarianism, and buddhism.
                 </p>
             </section>
             <section>
-                <h1>Search</h1>
+                <h1>⌊ Search ⌋</h1>
                 <form action="https://duckduckgo.com" method="get">
                 <input name="q" type="text" placeholder="Search this blog" />
                 <input name="sites" type="hidden" value="[% plerd.base_uri %]" />
@@ -81,7 +94,7 @@
                 </form>
             </section>
             <section>
-                <h1>Recent Posts</h1>
+                <h1>⌊ Recent Posts ⌋</h1>
                 <ul>
                 [% FOR post IN plerd.recent_posts %]
                     <li><a href="[% post.uri %]">[% post.title %]</a></li>

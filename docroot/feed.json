@@ -1,24 +1,24 @@
 {
   "version": "https://jsonfeed.org/version/1",
-  "title": "Flingtoad",
-  "home_page_url": "https://blog.flingtoad.com",
-  "feed_url": "https://blog.flingtoad.com/feed.json",
-  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://blog.flingtoad.com/feed.json — and add it your reader.",
+  "title": "⌊⌋ Undermountain Network",
+  "home_page_url": "https://undermountain.net",
+  "feed_url": "https://undermountain.net/feed.json",
+  "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format. To add this feed to your reader, copy the following URL — https://undermountain.net/feed.json — and add it your reader.",
   "author": {
     "name": "Mike Oliver",
-    "url": "mailto:mike@flingtoad.com"
+    "url": "mailto:mike@undermountain.net"
   },
   "items": [
 
 
     
     {
-      "id": "https://blog.flingtoad.com/2022-01-12-my-day-today.html",
-      "url": "https://blog.flingtoad.com/2022-01-12-my-day-today.html",
-      "title": "My day today",
-      "content_html": "<p>I had a pretty good day today. </p>\n\n<p>I hung out at <a href=\"http://empireteaandcoffee.com\">the coffee shop</a>. Then I went home.</p>\n\n<p>Well, that’s all for now. Bye bye.</p>\n",
-      "date_published": "2022-01-12T21:42:44-06:00",
-      "date_modified": "2022-01-12T21:42:44-06:00"
+      "id": "https://undermountain.net/2022-01-13-first-post.html",
+      "url": "https://undermountain.net/2022-01-13-first-post.html",
+      "title": "First Post",
+      "content_html": "<p>Just to get something in directory.</p>\n",
+      "date_published": "2022-01-13T20:27:12-08:00",
+      "date_modified": "2022-01-13T20:27:12-08:00"
     }
 
   ]
