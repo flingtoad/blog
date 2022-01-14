@@ -1,3 +1,7 @@
 local/*
 cpanfile.snapshot
 docroot/*.html
+docroot/atom.xml
+docroot/feed.json
+docroot/tags/
+

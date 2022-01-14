@@ -1,5 +1,5 @@
 ---
-- hosts: eucalyptus.fat.mklvr.io
+- hosts: all
   become: True
   tasks:
     - name: Create a tarball to copy for deployment
@@ -14,6 +14,12 @@
         dest: /var/www/html
         owner: www-data
         group: www-data
+    - name: Fix the symlink created by plerd
+      ansible.builtin.file:
+        dest: /var/www/html/docroot/index.html
+        src: /var/www/html/docroot/recent.html
+        state: link
+        force: True
     - name: Cleanup the tarball
       ansible.builtin.file:
         path: ./deploy.tar.gz
